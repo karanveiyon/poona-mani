@@ -1,0 +1,35 @@
+body{
+
+    background-image: linear-gradient(to right top, #343434, #363636, #393939, #3b3b3b, #3e3e3e, #3d3d3e, #3d3d3e, #3c3c3e, #37393b, #323638, #2d3335, #293030);
+    min-height: 100vh;
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-brand{
+
+    font-family: 'Kavivanar', cursive;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.side{
+    color: white;
+    font-family: kavivanar;
+}
+.intro{
+    color: white;
+    font-family: kavivanar;
+    line-height: 3rem;
+    padding-left: 1rem;
+}
+#output{
+    color: white;
+}
+.cat_img{
+    width: 50%;
+    height: 50%;
+}
