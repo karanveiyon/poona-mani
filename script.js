@@ -30,12 +30,13 @@ function btnclick(){
 
     const catList = document.getElementById('cat_list');
     const index = catList.selectedIndex;
-
+    const Iindex = index-1;
+/*     console.log(Iindex); */
     const outputSpan = document.getElementById('output');
 
-    let output = `<h2>${catArray[index].name}</h2>`;
-    output += `<img class='cat_img' src='${catArray[index].image.url}'><br>`;
-    output += `<h3>Description</h3><p>${catArray[index].description}</p>`
+    let output = `<h2>${catArray[Iindex].name}</h2>`;
+    output += `<img class='cat_img' src='${catArray[Iindex].image.url}'><br>`;
+    output += `<h3>Description</h3><p>${catArray[Iindex].description}</p>`
 
     outputSpan.innerHTML = output;
 }
